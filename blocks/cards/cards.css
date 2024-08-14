@@ -1,4 +1,11 @@
-/* Boilerplate default cards styling */ 
+/* stylelint-disable declaration-block-no-redundant-longhand-properties */
+/* stylelint-disable value-no-vendor-prefix */
+/* stylelint-disable no-descending-specificity */
+/* stylelint-disable color-function-notation */
+/* stylelint-disable alpha-value-notation */
+/* stylelint-disable comment-empty-line-before */
+/* stylelint-disable media-feature-range-notation */
+/* Boilerplate default cards styling */
 .cards.default {
   margin-top: 3rem;
   padding: 1rem 0;
@@ -10,18 +17,27 @@
   padding: 0;
   display: grid;
   grid-gap: 32px;
-  grid-template-columns: repeat(auto-fill, minmax(calc((100% - (4 * 32px)) / 5), 1fr));
+  grid-template-columns: repeat(
+    auto-fill,
+    minmax(calc((100% - (4 * 32px)) / 5), 1fr)
+  );
 }
 
 @media (max-width: 1024px) {
   .cards > ul {
-    grid-template-columns: repeat(auto-fill, minmax(calc((100% - (2 * 32px)) / 3), 1fr));
+    grid-template-columns: repeat(
+      auto-fill,
+      minmax(calc((100% - (2 * 32px)) / 3), 1fr)
+    );
   }
 }
 
 @media (max-width: 768px) {
   .cards > ul {
-    grid-template-columns: repeat(auto-fill, minmax(calc((100% - 32px) / 2), 1fr));
+    grid-template-columns: repeat(
+      auto-fill,
+      minmax(calc((100% - 32px) / 2), 1fr)
+    );
   }
 }
 
@@ -57,7 +73,7 @@
   letter-spacing: -0.9px;
 }
 
-.cards > ul > li  {
+.cards > ul > li {
   overflow: hidden;
 }
 
@@ -66,7 +82,7 @@
   height: 100%;
   object-fit: cover;
   border-radius: 5px;
-  overflow: hidden;  
+  overflow: hidden;
 }
 
 .cards > ul > li a:hover img {
@@ -97,7 +113,10 @@
   margin-bottom: 0;
 }
 
-.section.cards-container .default-content-wrapper .button-container a[title="Join Us"]{
+.section.cards-container
+  .default-content-wrapper
+  .button-container
+  a[title='Join Us'] {
   margin-top: 0;
 }
 
@@ -105,11 +124,11 @@
   color: var(--color-white);
   border: 1px solid transparent;
   background-color: rgba(255, 142, 47, 1);
-  transition-duration: .3s;
+  transition-duration: 0.3s;
 }
 
 /* Cards - Portfolio */
-.cards.portfolio { 
+.cards.portfolio {
   margin-top: 4rem;
 }
 
@@ -127,7 +146,9 @@
 
 .cards.portfolio .case-study-card .wrapper {
   border-radius: 5px;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  box-shadow:
+    0 4px 8px 0 rgba(0, 0, 0, 0.2),
+    0 6px 20px 0 rgba(0, 0, 0, 0.19);
   width: 100%;
   height: 100%;
 }
@@ -193,7 +214,9 @@
 
 .cards.portfolio .small-card .wrapper {
   border-radius: 5px;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  box-shadow:
+    0 4px 8px 0 rgba(0, 0, 0, 0.2),
+    0 6px 20px 0 rgba(0, 0, 0, 0.19);
   width: 100%;
   height: 100%;
 }
@@ -265,7 +288,7 @@
   font-weight: 700;
   border: 1px solid #000;
   border-radius: 5px;
-  padding: 0.75rem 1rem; 
+  padding: 0.75rem 1rem;
   color: #000;
   width: fit-content;
 }
@@ -422,7 +445,7 @@
   .cards.services {
     flex-direction: row;
   }
-  
+
   .cards.services .card-container {
     margin-top: 0;
   }

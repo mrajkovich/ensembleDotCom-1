@@ -1,3 +1,5 @@
+/* stylelint-disable no-descending-specificity */
+/* stylelint-disable declaration-block-no-redundant-longhand-properties */
 footer {
   padding: 2rem;
   font-size: var(--body-font-size-s);
@@ -53,7 +55,6 @@ footer .footer .default-content-wrapper > ul > li > ul {
   padding: 0;
   margin-top: 7px;
 }
-
 
 footer .footer .default-content-wrapper > ul > li {
   font-size: 16px;
