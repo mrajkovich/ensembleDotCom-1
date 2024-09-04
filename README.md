@@ -1,8 +1,8 @@
 # Lunch & Learn Edge Delivery Services Demo
 
 ## Environments
-- Preview: https://main--ensembleDotCom--mrajkovich.hlx.page/
-- Live: https://main--ensembleDotCom--mrajkovich.hlx.live/
+- Preview: https://main--ensembleDotCom-1--mrajkovich.hlx.page/
+- Live: https://main--ensembleDotCom-1--mrajkovich.hlx.live/
 
 ## Installation
 
