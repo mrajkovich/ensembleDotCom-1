@@ -32,7 +32,7 @@ function validateEmail() {
     console.log(body);
   
     // change link to your email-form URL
-    fetch('https://main--ensembleDotCom-1-mrajkovich.aem.page/email-form', {
+    fetch('https://main--ensembleDotCom-1--mrajkovich.aem.page/email-form', {
       method: "POST",
       body,
     }).then((response) => {
